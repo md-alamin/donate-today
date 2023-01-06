@@ -186,3 +186,47 @@ button:hover {
     background-color: white;
     outline: 2px solid rgb(231, 84, 84);
 }
+.form-control {
+    display: inline-block;
+}
+
+.newsletter-input .newsletter-btn {
+    display: inline-block;
+}
+
+.news {
+    display: flex;
+    padding: 100px 300px;
+    background-color: rgba(185, 185, 64, 0.253);
+    justify-content: center;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.news input {
+    font-size: 20px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.158);
+}
+
+.news button {
+    border-radius: 0 5px 5px 0;
+}
+
+.email-update {
+    text-align: center;
+    margin: 150px auto 0;
+}
+
+.update {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.email-update p {
+    width: 70%;
+    margin: 0 auto;
+}
