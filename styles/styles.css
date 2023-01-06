@@ -165,6 +165,9 @@ header {
 
 .image-description {
     text-align: start;
+}
+
+.depend .image-description {
     margin-right: 100px;
 }
 
@@ -176,7 +179,7 @@ header {
     margin-right: 0;
 } */
 
-.described-image {
+.need .described-image {
     margin-right: 100px;
 }
 
@@ -208,8 +211,18 @@ button:hover {
     font-size: 20px;
     border-radius: 5px 0 0 5px;
     border: none;
-    padding: 20px;
-    background-color: rgba(128, 128, 128, 0.158);
+    padding: 18px;
+    background-color: rgba(44, 15, 15, 0.158);
+}
+
+.btn-padding {
+    background-color: rgb(231, 84, 84);
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 5px 45px;
+    border-radius: 5px;
+    transition: 0.3s;
 }
 
 .news button {
@@ -229,4 +242,21 @@ button:hover {
 .email-update p {
     width: 70%;
     margin: 0 auto;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    background-color: rgb(8, 8, 27);
+    text-align: center;
+    margin-top: 60px;
+}
+
+.foot-header {
+    font-size: 34px;
+    color: rgb(231, 84, 84);
+    font-family: cursive;
+    margin-bottom: 20px;
 }
